@@ -1,19 +1,43 @@
-# tip_calculator
-Helps you to calculate tip at any purchase
+# Tip Calculator
 
-#If the bill was $150.00, split between 5 people, with 12% tip. 
+This repository contains the source code for a tip calculator application. The application allows users to calculate the appropriate tip amount based on their bill total and desired tip percentage.
 
-#Each person should pay (150.00 / 5) * 1.12 = 33.6
-#Format the result to 2 decimal places = 33.60
+## Features
 
-#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+- Input the bill amount and desired tip percentage.
+- Calculate the tip amount based on the provided inputs.
+- Display the total bill amount including the tip.
 
-#Write your code below this line 👇
-print("Welcome to the tip calculator.")
-bill=float(input("what was the total bill? "))
-percent=int(input("What percentage tip would you like to give? 10, 12,or 15? "))
-people=int(input("how many people to split the bill? "))
-s=float((bill/people)*(1+(percent/100)))
-result = round(s,2)
-r="{:.2f}".format(result)
-print(f"Each person should pay: ${r}")
+## Installation
+1. Clone the repository:  `git clone https://github.com/farheenfathimaa/tip_calculator.git`
+
+2.Navigate to the project directory:   `cd tip_calculator`
+
+3.Open the index.html file in your preferred web browser.
+
+## Usage
+1.Enter the bill amount in the designated input field.
+
+2.Select the desired tip percentage using the provided options or manually input a custom tip percentage.
+
+3.The application will automatically calculate the tip amount and display it along with the total bill amount (including the tip).
+
+## Contributing
+Contributions are welcome! If you would like to contribute to this project, please follow these steps:
+
+1.Fork the repository.
+
+2.Create a new branch.
+
+3.Make your changes and commit them.
+
+4.Push your changes to your forked repository.
+
+5.Submit a pull request detailing the changes you made.
+
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+The development of this tip calculator was inspired by the need for a simple and user-friendly tool to calculate tips.
